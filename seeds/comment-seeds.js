@@ -1,5 +1,5 @@
 const { Comment } = require('../models');
-const commentData = [//added day care id
+const commentData = [
     {
         user_id: 1,
         post_id: 5,
