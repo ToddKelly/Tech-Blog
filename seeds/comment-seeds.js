@@ -3,23 +3,23 @@ const commentData = [
     {
         user_id: 1,
         post_id: 5,
-        comment_text: "Thanks for that."
+        comment_text: "This was very useful."
     },
     {
         user_id: 2,
         post_id: 4,
-        comment_text: "Wow, amazing information!"
+        comment_text: "Floored with new information"
     },
     {
         user_id: 3,
         post_id: 5,
-        comment_text: "I didn't know about that"
+        comment_text: "Amazing!"
     },
     {
         user_id: 4,
         post_id: 2,
 
-        comment_text: "Thats too cool!"
+        comment_text: "This changes how I understand and view hings now"
     }
     
 ]
