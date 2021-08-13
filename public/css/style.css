@@ -1,10 +1,10 @@
 :root {
-    --primary: #3d5852;
-    --secondary: #86938f;
-    --tertiary: #5e877f;
-    --quatrinary: #6c6b67;
-    --light: #e3e4e3;
-    --dark: #182c23;
+    --primary: #0e5faa;
+    --secondary: #0e5faa;
+    --tertiary: #0e5faa;
+    --quatrinary: #0e5faa;
+    --light: #9fb2ca;
+    --dark: #9fb2ca;
     --error: rgb(228, 46, 1);
     --border-radius: 2px;
   }
@@ -61,7 +61,7 @@
   
   .display {
       flex: 4;
-      background-color: #fff;
+      background-color: #9fb2ca;
       padding: 50px;
       justify-content: center;
       align-items: center;
@@ -87,7 +87,7 @@
   .post .title span {
     font-style: italic;
     font-size: 90%;
-    color: #7d7d7d;
+    color: #9fb2ca;
   }
   
   .edit-link {
@@ -105,7 +105,7 @@
   }
   
   .comment:nth-child(odd) {
-    background-color: #fff5eb;
+    background-color:#9fb2ca;
   }
   
   .comment .meta {
