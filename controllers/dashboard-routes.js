@@ -89,7 +89,7 @@ router.get('/edit/:id', withAuth, (req, res) => {
         res.status(500).json(err);
       });
 });
-
+//previously create
 router.get('/create/', withAuth, (req, res) => {
     Post.findAll({
       where: {

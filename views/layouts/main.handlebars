@@ -20,7 +20,7 @@
             {{#if loggedIn}}
             <a href="/" class="navbar-item is-hoverable pt-1"><i class="fas fa-home"></i> Home</a> 
             <a href="/dashboard" class="navbar-item is-hoverable pt-1"><i class="fas fa-columns"></i>Dashboard</a> 
-            <a href="/dashboard/new/" class="navbar-item is-hoverable pt-1"><i class="fas fa-comments"></i>New Post</a> 
+            <a href="/dashboard/create/" class="navbar-item is-hoverable pt-1"><i class="fas fa-comments"></i>Create New Blog</a> 
             <button id="logout" class="button is-danger"><i class="fas fa-sign-out-alt"></i> Logout</button>
             
             {{else}}
@@ -44,7 +44,7 @@
       <p>
       <a href="/">Home</a>{{#if loggedIn}} | 
       <a href="/dashboard">Dashboard</a> | 
-      <a href="/dashboard/new/">New Post</a>
+      <a href="/dashboard/create/">Create Blog</a>
       {{else}}
          <a href="/login/">Login</a>
       {{/if}}
