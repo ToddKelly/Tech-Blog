@@ -8,7 +8,7 @@ This application is built using Handlebars, Express and MySQL. It enables a user
 
 This application uses sessions so an idle user will be logged out after some time.
 
-Here is a link to the [deployed application](https://rocky-citadel-71699.herokuapp.com/home).
+Here is a link to the [deployed application](
 
 Below are screenshots of the application in use.
 
